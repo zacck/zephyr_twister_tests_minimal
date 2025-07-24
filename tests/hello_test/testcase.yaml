@@ -1,0 +1,7 @@
+tests:
+  hello.test_hello:
+    platform_allow:
+      - native_sim
+      - stm32f4_disco
+    tags: test
+    timeout: 10
